@@ -1,0 +1,26 @@
+{
+	"name" : "nvbooster/api-utils",
+	"description" : "API utils",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "nvb",
+			"email" : "nvb@aproxima.ru"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"nvbooster\\ApiUtils\\" : "src/"
+		}
+	},
+	"require" : {
+		"php" : ">=5.5",
+		"symfony/form" : "~2.5|~3.0|~4.0"
+	},
+	"minimum-stability" : "stable",
+	"extra" : {
+		"branch-alias" : {
+			"dev-trunk" : "1.x-dev"
+		}
+	}
+}
